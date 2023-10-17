@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineSearch } from 'react-icons/ai';
 import { HiOutlineLocationMarker, HiOutlineSwitchVertical } from 'react-icons/hi';
-import { BiCurrentLocation } from "ygh";
+import { BiCurrentLocation } from 'react-icons/bi';
 import { useDispatch, useSelector } from 'react-redux';
 import { setToggleMenu } from '../../redux/toggleMenu/toggle';
 
