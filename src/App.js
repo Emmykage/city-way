@@ -3,7 +3,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="container">
+    <div className="main-container bg-gray-100 min-h-screen w-full">
       <Home />
 
     </div>
