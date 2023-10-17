@@ -13,7 +13,7 @@ const SideBar = () => {
   };
 
   return (
-    <div className='side-navigation'>
+    <div className="side-navigation">
       <div className="max-w-sm border mt-2 rounded-md shadow-md p-4">
         <div className="top flex items-center">
           <div>
