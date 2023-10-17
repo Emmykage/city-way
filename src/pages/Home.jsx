@@ -3,7 +3,7 @@ import SideBar from '../components/nav-bar/SideBar';
 
 const Home = () => (
   <div className="relative">
-    <SideBar/>
+    <SideBar />
   </div>
 );
 

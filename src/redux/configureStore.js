@@ -3,7 +3,6 @@ import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import menuSlice from './toggleMenu/toggle';
-// import logger from
 
 const rootReducer = combineReducers({
   toggleMenu: menuSlice,

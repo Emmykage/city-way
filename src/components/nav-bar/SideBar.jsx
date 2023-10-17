@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineSearch } from 'react-icons/ai';
 import { HiOutlineLocationMarker, HiOutlineSwitchVertical } from 'react-icons/hi';
-import { BiCurrentLocation } from 'react-icons/bi ';
+import { MdLocationSearching } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux';
 import { setToggleMenu } from '../../redux/toggleMenu/toggle';
 
@@ -35,7 +35,7 @@ const SideBar = () => {
 
             </div>
             <div className="flex items-center justify-between gap-1 mt-3 ">
-              <span><BiCurrentLocation className="text-red-800" /></span>
+              <span><MdLocationSearching className="text-red-800" /></span>
               <div className="flex-1 rounded-md overflow-hidden relative">
                 <input type="text" className="border text-xs p-3 w-full  bg-gray-100  outline-none" placeholder="Choose Destination" />
                 <AiOutlineSearch className=" absolute right-1 top-1/2 -translate-y-1/2" />
