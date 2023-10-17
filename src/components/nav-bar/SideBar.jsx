@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineSearch} from "react-icons/ai"
 import {HiOutlineLocationMarker} from "react-icons/hi"
 import { useDispatch, useSelector } from 'react-redux'
