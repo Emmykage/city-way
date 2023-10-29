@@ -9,7 +9,7 @@ const Map = () => {
     });
   }, []);
   return (
-    <div className="w-full z-0 bg-green-200 left-0 h-full">
+    <div className="w-full z-0 left-0 h-full">
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyBHLWgphtdgzhywmRajHsGiRc1VO8c7ifs' }}
         defaultCenter={coordinates}

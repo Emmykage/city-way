@@ -20,7 +20,7 @@ const SideBar = () => {
             <AiOutlineMenu onClick={handleToggle} className="text-2xl cursor-pointer" />
           </div>
           <h3 className="flex-1 text-lg text-center font-semibold">
-            Get directions
+            Get Directions
           </h3>
         </div>
         <div className="flex">
