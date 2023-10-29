@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import GoogleMapReact from 'google-map-react';
 
 const Map = () => {
-  const [coordinates, setCoordinates] = useState({ lat: 0, lng: 0 });
+  const [coordinates, setCoordinates] = useState({});
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(({ coords: { latitude, longitude } }) => {
       setCoordinates({ lat: latitude, lng: longitude });
     });
-  }, [coordinates]);
+  }, []);
   return (
     <div className="w-full z-0 bg-green-200 left-0 h-full">
       <GoogleMapReact
