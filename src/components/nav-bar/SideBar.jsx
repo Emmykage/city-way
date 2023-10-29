@@ -13,8 +13,8 @@ const SideBar = () => {
   };
 
   return (
-    <div className="side-navigation">
-      <div className="max-w-sm border mt-2 rounded-md shadow-md p-4">
+    <div className="side-navigation z-50 fixed w-full max-w-sm">
+      <div className="max-w-sm border mt-0 rounded-md shadow-md p-4 bg-white">
         <div className="top flex items-center">
           <div>
             <AiOutlineMenu onClick={handleToggle} className="text-2xl cursor-pointer" />
